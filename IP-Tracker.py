@@ -63,7 +63,7 @@ while True:
 
         if result1['status'] == 'success':
             # latitude
-            lati = result['latitude']
+            lati = result['lat']
             lat = "{:.4f}".format(lati)
             # longitude
             lon = result['longitude']
